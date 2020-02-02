@@ -1,0 +1,5 @@
+sch2hdl,-sympath,H:/organization/lab7/OExp07-ExtSCPU/ipcore_dir,-intstyle,ise,-family,kintex7,-verilog,H:/organization/lab7/OExp07-ExtSCPU/SCPU.vf,-w,H:/organization/lab7/OExp07-ExtSCPU/SCPU.sch
+sch2hdl,-sympath,H:/organization/lab7/OExp07-ExtSCPU/ipcore_dir,-intstyle,ise,-family,kintex7,-verilog,H:/organization/lab7/OExp07-ExtSCPU/Data_path.vf,-w,H:/organization/lab7/OExp07-ExtSCPU/Data_path.sch
+sch2hdl,-sympath,H:/organization/lab7/OExp07-ExtSCPU/ipcore_dir,-intstyle,ise,-family,kintex7,-verilog,H:/organization/lab7/OExp07-ExtSCPU/Top_SCPU.vf,-w,H:/organization/lab7/OExp07-ExtSCPU/Top_SCPU.sch
+sch2hdl,-sympath,H:/organization/lab7/OExp07-ExtSCPU/ipcore_dir,-intstyle,ise,-family,kintex7,-verilog,H:/organization/lab7/OExp07-ExtSCPU/SCPU.vf,-w,H:/organization/lab7/OExp07-ExtSCPU/SCPU.sch
+sch2hdl,-sympath,H:/organization/lab7/OExp07-ExtSCPU/ipcore_dir,-intstyle,ise,-family,kintex7,-verilog,H:/organization/lab7/OExp07-ExtSCPU/Top_SCPU.vf,-w,H:/organization/lab7/OExp07-ExtSCPU/Top_SCPU.sch

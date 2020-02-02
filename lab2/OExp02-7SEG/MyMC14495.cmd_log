@@ -1,0 +1,4 @@
+vhdtdtfi -prj OExp02-7SEG -o H:/organization/lab2/OExp02-7SEG/MyMC14495.tfi -module MyMC14495 -template E:/Xilinx/14.4/ISE_DS/ISE//data/tfi.tft -deleteonerror -lib work MyMC14495.vf 
+vhdtdtfi -prj OExp02-7SEG -o H:/organization/lab2/OExp02-7SEG/MyMC14495.tfi -module MyMC14495 -template E:/Xilinx/14.4/ISE_DS/ISE//data/tfi.tft -deleteonerror -lib work MyMC14495.vf 
+vhdtdtfi -prj OExp02-7SEG -o H:/organization/lab2/OExp02-7SEG/MyMC14495.tfi -module MyMC14495 -template E:/Xilinx/14.4/ISE_DS/ISE//data/tfi.tft -deleteonerror -lib work MyMC14495.vf 
+vhdtdtfi -prj OExp02-7SEG -o H:/organization/lab2/OExp02-7SEG/MyMC14495.tfi -module MyMC14495 -template E:/Xilinx/14.4/ISE_DS/ISE//data/tfi.tft -deleteonerror -lib work MyMC14495.vf 

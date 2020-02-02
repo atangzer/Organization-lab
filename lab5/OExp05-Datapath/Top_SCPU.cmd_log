@@ -1,0 +1,43 @@
+xst -intstyle ise -ifn "H:/organization/lab3/OExp03_IP2SOC/Top_SCPU.xst" -ofn "H:/organization/lab3/OExp03_IP2SOC/Top_SCPU.syr" 
+xst -intstyle ise -ifn "H:/organization/lab3/OExp03_IP2SOC/Top_SCPU.xst" -ofn "H:/organization/lab3/OExp03_IP2SOC/Top_SCPU.syr" 
+xst -intstyle ise -ifn "H:/organization/lab3/OExp03_IP2SOC/Top_SCPU.xst" -ofn "H:/organization/lab3/OExp03_IP2SOC/Top_SCPU.syr" 
+xst -intstyle ise -ifn "H:/organization/lab3/OExp03_IP2SOC/Top_SCPU.xst" -ofn "H:/organization/lab3/OExp03_IP2SOC/Top_SCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Org-Sword.ucf -p xc7k160t-ffg676-2L Top_SCPU.ngc Top_SCPU.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Top_SCPU_map.ncd Top_SCPU.ngd Top_SCPU.pcf 
+par -w -intstyle ise -ol high -mt off Top_SCPU_map.ncd Top_SCPU.ncd Top_SCPU.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Top_SCPU.twx Top_SCPU.ncd -o Top_SCPU.twr Top_SCPU.pcf -ucf Org-Sword.ucf 
+bitgen -intstyle ise -f Top_SCPU.ut Top_SCPU.ncd 
+xst -intstyle ise -ifn "H:/organization/lab4/OExp03_IP2SOC/Top_SCPU.xst" -ofn "H:/organization/lab4/OExp03_IP2SOC/Top_SCPU.syr" 
+xst -intstyle ise -ifn "H:/organization/lab4/OExp03_IP2SOC/Top_SCPU.xst" -ofn "H:/organization/lab4/OExp03_IP2SOC/Top_SCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Org-Sword.ucf -p xc7k160t-ffg676-2L Top_SCPU.ngc Top_SCPU.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Top_SCPU_map.ncd Top_SCPU.ngd Top_SCPU.pcf 
+par -w -intstyle ise -ol high -mt off Top_SCPU_map.ncd Top_SCPU.ncd Top_SCPU.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Top_SCPU.twx Top_SCPU.ncd -o Top_SCPU.twr Top_SCPU.pcf -ucf Org-Sword.ucf 
+bitgen -intstyle ise -f Top_SCPU.ut Top_SCPU.ncd 
+sch2hdl -sympath H:/organization/lab5/OExp05-Datapath/ipcore_dir -intstyle ise -family kintex7 -verilog Top_SCPU_drc.vf -w H:/organization/lab5/OExp05-Datapath/Top_SCPU.sch 
+sch2sym -intstyle ise -family kintex7 -refsym Top_SCPU H:/organization/lab5/OExp05-Datapath/Top_SCPU.sch H:/organization/lab5/OExp05-Datapath/Top_SCPU.sym 
+xst -intstyle ise -ifn "H:/organization/lab5/OExp05-Datapath/Top_SCPU.xst" -ofn "H:/organization/lab5/OExp05-Datapath/Top_SCPU.syr" 
+xst -intstyle ise -ifn "H:/organization/lab5/OExp05-Datapath/Top_SCPU.xst" -ofn "H:/organization/lab5/OExp05-Datapath/Top_SCPU.syr" 
+xst -intstyle ise -ifn "H:/organization/lab5/OExp05-Datapath/Top_SCPU.xst" -ofn "H:/organization/lab5/OExp05-Datapath/Top_SCPU.syr" 
+xst -intstyle ise -ifn "H:/organization/lab5/OExp05-Datapath/Top_SCPU.xst" -ofn "H:/organization/lab5/OExp05-Datapath/Top_SCPU.syr" 
+xst -intstyle ise -ifn "H:/organization/lab5/OExp05-Datapath/Top_SCPU.xst" -ofn "H:/organization/lab5/OExp05-Datapath/Top_SCPU.syr" 
+xst -intstyle ise -ifn "H:/organization/lab5/OExp05-Datapath/Top_SCPU.xst" -ofn "H:/organization/lab5/OExp05-Datapath/Top_SCPU.syr" 
+xst -intstyle ise -ifn "H:/organization/lab5/OExp05-Datapath/Top_SCPU.xst" -ofn "H:/organization/lab5/OExp05-Datapath/Top_SCPU.syr" 
+xst -intstyle ise -ifn "H:/organization/lab5/OExp05-Datapath/Top_SCPU.xst" -ofn "H:/organization/lab5/OExp05-Datapath/Top_SCPU.syr" 
+xst -intstyle ise -ifn "H:/organization/lab5/OExp05-Datapath/Top_SCPU.xst" -ofn "H:/organization/lab5/OExp05-Datapath/Top_SCPU.syr" 
+xst -intstyle ise -ifn "H:/organization/lab5/OExp05-Datapath/Top_SCPU.xst" -ofn "H:/organization/lab5/OExp05-Datapath/Top_SCPU.syr" 
+xst -intstyle ise -ifn "H:/organization/lab5/OExp05-Datapath/Top_SCPU.xst" -ofn "H:/organization/lab5/OExp05-Datapath/Top_SCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Org-Sword.ucf -p xc7k160t-ffg676-2L Top_SCPU.ngc Top_SCPU.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Top_SCPU_map.ncd Top_SCPU.ngd Top_SCPU.pcf 
+par -w -intstyle ise -ol high -mt off Top_SCPU_map.ncd Top_SCPU.ncd Top_SCPU.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Top_SCPU.twx Top_SCPU.ncd -o Top_SCPU.twr Top_SCPU.pcf -ucf Org-Sword.ucf 
+bitgen -intstyle ise -f Top_SCPU.ut Top_SCPU.ncd 
+xst -intstyle ise -ifn "H:/organization/lab5/OExp05-Datapath/Top_SCPU.xst" -ofn "H:/organization/lab5/OExp05-Datapath/Top_SCPU.syr" 
+xst -intstyle ise -ifn "H:/organization/lab5/OExp05-Datapath/Top_SCPU.xst" -ofn "H:/organization/lab5/OExp05-Datapath/Top_SCPU.syr" 
+xst -intstyle ise -ifn "H:/organization/lab5/OExp05-Datapath/Top_SCPU.xst" -ofn "H:/organization/lab5/OExp05-Datapath/Top_SCPU.syr" 
+xst -intstyle ise -ifn "H:/organization/lab5/OExp05-Datapath/Top_SCPU.xst" -ofn "H:/organization/lab5/OExp05-Datapath/Top_SCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Org-Sword.ucf -p xc7k160t-ffg676-2L Top_SCPU.ngc Top_SCPU.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Top_SCPU_map.ncd Top_SCPU.ngd Top_SCPU.pcf 
+par -w -intstyle ise -ol high -mt off Top_SCPU_map.ncd Top_SCPU.ncd Top_SCPU.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Top_SCPU.twx Top_SCPU.ncd -o Top_SCPU.twr Top_SCPU.pcf -ucf Org-Sword.ucf 
+bitgen -intstyle ise -f Top_SCPU.ut Top_SCPU.ncd 

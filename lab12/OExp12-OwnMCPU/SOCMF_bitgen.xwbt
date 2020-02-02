@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=I:\organization\lab12\OExp12-OwnMCPU\SOCMF.ncd
+OUTFILE=I:\organization\lab12\OExp12-OwnMCPU\SOCMF.bit
+FAMILY=Kintex7
+PART=xc7k160t-2lffg676
+WORKINGDIR=I:\organization\lab12\OExp12-OwnMCPU
+LICENSE=WebPack
+USER_INFO=__0_0_0

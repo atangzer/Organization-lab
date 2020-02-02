@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=H:\organization\lab1\OExp01-MUX\impact.xsl
+OUTFILE=H:\organization\lab1\OExp01-MUX\impact.xsl
+FAMILY=Single
+PART=Single
+WORKINGDIR=H:\organization\lab1\OExp01-MUX
+LICENSE=iMPACT
+USER_INFO=iMPACT

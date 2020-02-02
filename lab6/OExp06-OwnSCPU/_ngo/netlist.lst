@@ -1,0 +1,13 @@
+H:\organization\lab6\OExp06-OwnSCPU\Top_SCPU.ngc 1554797606
+H:\organization\lab6\OExp06-OwnSCPU/SAnti_jitter.ngc 1456416120
+H:\organization\lab6\OExp06-OwnSCPU/SEnter_2_32.ngc 1456416120
+H:\organization\lab6\OExp06-OwnSCPU/MIO_BUS.ngc 1456416120
+H:\organization\lab6\OExp06-OwnSCPU/SSeg7_Dev.ngc 1456416120
+H:\organization\lab6\OExp06-OwnSCPU/Multi_8CH32.ngc 1456416120
+H:\organization\lab6\OExp06-OwnSCPU/SPIO.ngc 1456416120
+H:\organization\lab6\OExp06-OwnSCPU/PIO.ngc 1456416120
+ipcore_dir/RAM_B.ngc 1552388990
+H:\organization\lab6\OExp06-OwnSCPU/Seg7_Dev.ngc 1456416120
+ipcore_dir/ROM_D.ngc 1552388820
+H:\organization\lab6\OExp06-OwnSCPU/SCPU_ctrl.ngc 1456550460
+OK

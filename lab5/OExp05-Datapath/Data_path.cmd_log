@@ -1,0 +1,4 @@
+sch2hdl -sympath H:/organization/lab5/OExp05-Datapath/ipcore_dir -intstyle ise -family kintex7 -verilog Data_path_drc.vf -w H:/organization/lab5/OExp05-Datapath/Data_path.sch 
+sch2hdl -sympath H:/organization/lab5/OExp05-Datapath/ipcore_dir -intstyle ise -family kintex7 -verilog Data_path_drc.vf -w H:/organization/lab5/OExp05-Datapath/Data_path.sch 
+sch2hdl -sympath H:/organization/lab5/OExp05-Datapath/ipcore_dir -intstyle ise -family kintex7 -verilog Data_path_drc.vf -w H:/organization/lab5/OExp05-Datapath/Data_path.sch 
+sch2hdl -sympath H:/organization/lab5/OExp05-Datapath/ipcore_dir -intstyle ise -family kintex7 -verilog Data_path_drc.vf -w H:/organization/lab5/OExp05-Datapath/Data_path.sch 

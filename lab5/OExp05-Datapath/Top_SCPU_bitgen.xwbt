@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=H:\organization\lab5\OExp05-Datapath\Top_SCPU.ncd
+OUTFILE=H:\organization\lab5\OExp05-Datapath\Top_SCPU.bit
+FAMILY=Kintex7
+PART=xc7k160t-2lffg676
+WORKINGDIR=H:\organization\lab5\OExp05-Datapath
+LICENSE=WebPack
+USER_INFO=__0_0_0

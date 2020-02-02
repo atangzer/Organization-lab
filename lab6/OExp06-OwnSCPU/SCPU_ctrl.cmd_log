@@ -1,0 +1,6 @@
+sch2hdl -sympath H:/organization/lab6/OExp06-OwnSCPU/ipcore_dir -intstyle ise -family kintex7 -verilog SCPU_ctrl_drc.vf -w H:/organization/lab6/OExp06-OwnSCPU/SCPU_ctrl.sch 
+sch2hdl -sympath H:/organization/lab6/OExp06-OwnSCPU/ipcore_dir -intstyle ise -family kintex7 -verilog SCPU_ctrl_drc.vf -w H:/organization/lab6/OExp06-OwnSCPU/SCPU_ctrl.sch 
+sch2hdl -sympath H:/organization/lab6/OExp06-OwnSCPU/ipcore_dir -intstyle ise -family kintex7 -verilog SCPU_ctrl_drc.vf -w H:/organization/lab6/OExp06-OwnSCPU/SCPU_ctrl.sch 
+sch2hdl -sympath H:/organization/lab6/OExp06-OwnSCPU/ipcore_dir -intstyle ise -family kintex7 -verilog SCPU_ctrl_drc.vf -w H:/organization/lab6/OExp06-OwnSCPU/SCPU_ctrl.sch 
+sch2hdl -sympath H:/organization/lab6/OExp06-OwnSCPU/ipcore_dir -intstyle ise -family kintex7 -verilog SCPU_ctrl_drc.vf -w H:/organization/lab6/OExp06-OwnSCPU/SCPU_ctrl.sch 
+sch2hdl -sympath H:/organization/lab6/OExp06-OwnSCPU/ipcore_dir -intstyle ise -family kintex7 -verilog SCPU_ctrl_drc.vf -w H:/organization/lab6/OExp06-OwnSCPU/SCPU_ctrl.sch 

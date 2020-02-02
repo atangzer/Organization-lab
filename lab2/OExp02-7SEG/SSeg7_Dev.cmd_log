@@ -1,0 +1,2 @@
+sch2hdl -sympath H:/organization/lab2/OExp02-7SEG/ipcore_dir -intstyle ise -family kintex7 -verilog SSeg7_Dev_drc.vf -w H:/organization/lab2/OExp02-7SEG/SSeg7_Dev.sch 
+sch2hdl -sympath H:/organization/lab2/OExp02-7SEG/ipcore_dir -intstyle ise -family kintex7 -verilog SSeg7_Dev_drc.vf -w H:/organization/lab2/OExp02-7SEG/SSeg7_Dev.sch 
